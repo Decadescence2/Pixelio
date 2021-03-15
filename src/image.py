@@ -16,7 +16,7 @@ class Image(object):
         self.pix = self.image.load()
 
     def load_image(self, file):
-        tmb_full_path = os.getcwd() + '/img/.cache/' + self.checksum + '.png'
+        tmb_full_path = os.getcwd() + '/img/cache/' + self.checksum + '.png'
 
         if (os.path.isfile(tmb_full_path)):
             print(I18n.get('Load cached image'))
