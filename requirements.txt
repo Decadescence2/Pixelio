@@ -1,4 +1,3 @@
 requests
-thread
 websocket
 math
