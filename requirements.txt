@@ -1,5 +1,6 @@
 requests
 websocket
+WebSocketApp
 pillow
 six
 pyqrcode
