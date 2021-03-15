@@ -2,3 +2,6 @@ requests
 websocket
 pillow
 six
+hashlib
+os
+pyqrcode
