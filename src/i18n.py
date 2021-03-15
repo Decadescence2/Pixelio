@@ -90,7 +90,6 @@ class I18n(object):
             'Waiting %s seconds': ' %s Saniye bekleniliyor....',
             'Total: %s painted: %s Not painted %s': 'Toplam pixel sayisi: %s, Hazir pixeller : %s Cizilecek Pixeller: %s',
             ' %s colours rounded %s (%s) ': '%s rengi %s (%s) renge cevrildi',
-            'Oh no, you are using a proxy': 'Hata proxy kullanildigi icin islem yapilamiyor',
             'refresh_token': 'Token degeri gecersiz oldu. Sorunu duzeltmek icin pixelcanvas.io sitesine girin ve 1 tane pixel birakarak dogrulayin.',
             'token_resolved': '"pixelcanvasa girip pixel koyup dogruladin mi y/n:',
             'Rate_limit_exceeded': 'Hata istek limiti asildi',
