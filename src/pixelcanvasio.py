@@ -61,7 +61,7 @@ class PixelCanvasIO(object):
         return response.json()
 
     def send_pixel(self, x, y, color):
-        payload = '{"x":%s,"y":%s,"%s":%s,"color":%s,"fingerprint":"%s","token":null}' % (
+        payload = '{"x":%s,"y":%s,"%s":%s,"color":%s,"token":null}' % (
             x, y, self.duck, x + y + 2342, color.index, self.fingerprint)
         response = self.post(PixelCanvasIO.CLOUDFUNC_URL + 'pixel', payload)
 
